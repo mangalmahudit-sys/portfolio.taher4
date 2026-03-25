@@ -250,11 +250,11 @@ body{
 .track {
   display: flex;
   width: max-content;
-  animation: scroll-left 4s linear infinite; /* VERY FAST */
+  animation: scroll-left 2s linear infinite; /* VERY FAST */
 }
 
 .marquee.right .track {
-  animation: scroll-right 4s linear infinite;
+  animation: scroll-right 2s linear infinite;
 }
 
 .marquee img {
